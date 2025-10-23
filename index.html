@@ -1,0 +1,116 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Resort</title>
+<style type="text/css">
+.menu {
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-decoration: none;
+    background-color: #000000;
+    display: block;
+    height: 5%;
+    width: 100%;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+}
+.status {
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-decoration: none;
+    background-color: #000000;
+    display: block;
+    height: 3%;
+    width: 100%;
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+a:link {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+a:hover {
+    text-decoration: none;
+    color: #21FF36;
+}
+a:active {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+body {
+    background-color: #F3A4A6;
+}
+.action {
+    background-color: #AAAAAA;
+    display: block;
+    height: 50%;
+    width: 50%;
+    position: fixed;
+    left: 25%;
+    top: 5%;
+    right: 25%;
+}
+.stream {
+    background-color: #83ECFF;
+    display: block;
+    height: 50%;
+    width: 50%;
+    position: absolute;
+    left: 25%;
+    top: 50%;
+    right: 25%;
+}
+</style>
+</head>
+
+<body>
+<div class="menu"><table width="100%" height="100%" border="0">
+  <tbody>
+    <tr align="center">
+      <td><a href="index.html">Home</a></td>
+      <td><a href="attractions.html">Attractions</a></td>
+      <td><a href="photo gallery.html">Photo Gallery</a></td>
+      <td><a href="contact.html">Contact</a></td>
+    </tr>
+  </tbody>
+</table>
+</div>
+<div class="action">
+	<img src="Assets/Photo Gallery/img1.png" width="100%" height="100%" alt=""/>
+	<img src="Assets/Photo Gallery/img5.png" width="100%" height="100%" alt=""/>
+	<img src="Assets/Photo Gallery/img8.png" width="100%" height="100%" alt=""/>
+	<img src="Assets/Photo Gallery/img15.jpg" width="100%" height="100%" alt=""/>
+	<img src="Assets/Photo Gallery/img20.jpg" width="100%" height="100%" alt=""/>
+	</div>
+<div class="stream"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/ZgBkaNjfpdw?si=krhEpEIBB21qG-yC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+	
+	
+<div class="status"><marquee>Click here for offers</marquee></div>
+	
+	
+<script type="text/javascript" src="Assets/jquery-2.0.3.min.js"></script>
+<script type="text/javascript" src="Assets/jquery.cycle.all.js"></script>
+<script type="text/javascript">
+$('.action').cycle
+	({
+	fx:'zoom',
+	speed:'fast',
+	timeout:1000,
+    })
+</script>
+</body>
+</html>
